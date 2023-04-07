@@ -5,7 +5,6 @@
 *.slo
 *.lo
 *.o
-*.obj
 
 # Precompiled Headers
 *.gch
@@ -30,3 +29,19 @@
 *.exe
 *.out
 *.app
+
+# Ide settings
+.vscode/*
+build/
+
+/*Custom*/
+.vs/
+*.sln
+*.vcxproj
+*.filters
+*.user
+log.txt
+x64/
+.VSCodeCounter/
+
+*.ini
